@@ -1,1 +1,1 @@
-# Confidence-Aware-PS
+# Confidence-Aware PS
