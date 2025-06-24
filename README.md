@@ -1,5 +1,5 @@
 # Confidence-Aware PS
-This codebase implements the system described in the paper:
+This repository provides the code implementation for our paper titled:
 
 Confidence-aware photometric stereo networks enabling end-to-end normal and depth estimation for smart metrology
 
