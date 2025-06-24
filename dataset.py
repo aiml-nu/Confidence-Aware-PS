@@ -25,7 +25,8 @@ class Blobby_data(data_utils.Dataset):
         self.loader = loader
 
     def __getitem__(self, index):
-        root = '/home/crw9838/PS/data_gen/dataset/'
+        # Specify the path to the downloaded dataset
+        root = './dataset/'
         label_x_, label_d_, label_n_ = self.imgs[index]
         label_x, label_d, label_n = root + label_x_, root + label_d_, root + label_n_
         gt_depth = cv2.imread(label_d,  cv2.IMREAD_ANYDEPTH | cv2.IMREAD_UNCHANGED)[:,:,0]
