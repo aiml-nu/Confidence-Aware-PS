@@ -28,7 +28,9 @@ start_epoch = 1
 
 fnet = FeatureResNet()
 INI_model = INInet(fnet)
-load_model = '../dpps_huber/Train_05_09/model/model_best_nl.pth'
+
+# Specify the path to the model checkpoint saved after the initial stage
+load_model = '' 
 checkpoint = torch.load(load_model, map_location=lambda storage, loc: storage)
 state_dict = checkpoint['state_dict']
 INI_model.load_state_dict(state_dict, strict=False)
