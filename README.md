@@ -20,7 +20,7 @@ Once our synthetic dataset (https://github.com/aiml-nu/Confidence-Aware-PS/tree/
 python train_initial.py
 ```
 ```bash
-python train_refine.py
+python train_refine_nl.py
 ```
 
 ## BibTeX
