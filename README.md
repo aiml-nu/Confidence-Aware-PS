@@ -3,7 +3,7 @@ This repository provides the code implementation for our paper titled:
 
 Confidence-aware photometric stereo networks enabling end-to-end normal and depth estimation for smart metrology
 
-![plot](./graphical_abstract.png)
+![plot](graphical_abstract.png)
 
 ## Dependencies
 - Python 3.7 
