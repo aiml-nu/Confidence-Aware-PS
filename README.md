@@ -15,7 +15,7 @@ Confidence-aware photometric stereo networks enabling end-to-end normal and dept
 - OpenCV
 
 ## Training
-Once our synthetic dataset (https://github.com/aiml-nu/Confidence-Aware-PS/tree/main) is downloaded, the model can be trained by running the following commands for the initial and refinement stages, respectively:
+Once our synthetic dataset (TBU) is downloaded, the model can be trained by running the following commands for the initial and refinement stages, respectively:
 ```bash
 python train_initial.py
 ```
