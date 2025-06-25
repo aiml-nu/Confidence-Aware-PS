@@ -9,8 +9,8 @@ Confidence-aware photometric stereo networks enabling end-to-end normal and dept
 - PyTorch
 - Torchvision
 - PIL
-- numpy
-- scipy
+- Numpy
+- Scipy
 - CUDA
 - OpenCV
 
